@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,6 +16,69 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppBanDienThoai"
         tools:targetApi="31">
+        <activity
+            android:name=".TrangChuNguoiDung_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TrangChuAdmin_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TrangCaNhanNguoiDung_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TrangCaNhanAdmin_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TimKiemSanPham_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ThongTinThanhToan_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ThemTaiKhoan_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ThemSanPham_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ThemNhomSanPham_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SuaSanPham_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SuaNhomSanPham_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SanPhamAdmin_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ChiTietDonHangAdmin_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".NhomSanPhamAdmin_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".GioHang_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DonHangUser_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DonHangAdmin_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DanhMucSanPham_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DangKiTaiKhoan_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ChiTietSanPham_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ChiTietDonHang_Activity"
+            android:exported="false" />
         <activity
             android:name=".TaiKhoan_admin_Activity"
             android:exported="false" />
@@ -24,10 +91,6 @@
         <activity
             android:name=".Login_Activity"
             android:exported="false" />
-        <activity
-            android:name=".ui.login.LoginActivity"
-            android:exported="false"
-            android:label="@string/title_activity_login" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
