@@ -81,11 +81,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="9sp"
+                android:textSize="12sp"
                 android:textColor="#000000"
                 android:text="Trang Chủ"
-                android:gravity="center"
-                tools:ignore="SmallSp" />
+                android:gravity="center" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="0dp"
@@ -106,11 +105,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="9sp"
+                android:textSize="12sp"
                 android:textColor="#000000"
                 android:text="Nhóm SP"
-                android:gravity="center"
-                tools:ignore="SmallSp" />
+                android:gravity="center" />
         </LinearLayout>
 
         <LinearLayout
@@ -133,10 +131,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sản Phẩm"
-                android:textSize="9sp"
+                android:textSize="12sp"
                 android:textColor="#000000"
-                android:gravity="center"
-                tools:ignore="SmallSp" />
+                android:gravity="center" />
         </LinearLayout>
 
         <LinearLayout
@@ -158,11 +155,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="9sp"
+                android:textSize="12sp"
                 android:textColor="#000000"
                 android:text="Đơn Hàng"
-                android:gravity="center"
-                tools:ignore="SmallSp" />
+                android:gravity="center" />
         </LinearLayout>
 
         <LinearLayout
@@ -184,11 +180,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="9sp"
+                android:textSize="12sp"
                 android:textColor="#000000"
                 android:text="Tài Khoản"
-                android:gravity="center"
-                tools:ignore="SmallSp" />
+                android:gravity="center" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="0dp"
@@ -210,9 +205,8 @@
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
                 android:text="Cá Nhân"
-                android:textSize="9sp"
-                android:gravity="center"
-                tools:ignore="SmallSp" />
+                android:textSize="12sp"
+                android:gravity="center" />
         </LinearLayout>
     </LinearLayout>
 

@@ -79,8 +79,8 @@
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="5dp"
                     android:layout_width="60dp"
-                    android:layout_height="wrap_content"
-                    android:text="Rules:"
+                    android:layout_height="50dp"
+                    android:text="Roles:"
                     android:textSize="17sp"
                     android:layout_marginBottom="5dp" />
 
@@ -88,8 +88,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:orientation="horizontal"
-                    >
+                    android:orientation="horizontal">
 
                     <RadioButton
                         android:id="@+id/user"

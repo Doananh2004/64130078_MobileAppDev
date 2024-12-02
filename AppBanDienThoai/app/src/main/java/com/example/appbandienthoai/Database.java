@@ -5,6 +5,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteStatement;
+import android.util.Log;
 
 import androidx.annotation.Nullable;
 
@@ -13,16 +14,17 @@ import java.util.List;
 
 public class Database extends SQLiteOpenHelper {
     public Database(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
-        super(context, name, factory, version);
+        super(context, "banhang.db", null, 2);
+        assert context != null;
+        Log.d("DatabasePath", "Database location: " + context.getDatabasePath("banhang.db").getAbsolutePath());
     }
-
 
     //truy vấn không trả kết quả
     public void QueryData(String sql){
         SQLiteDatabase database=getWritableDatabase();
         database.execSQL(sql);
-
     }
+
     public void QueryDulieu(String sql, byte[]... params) {
         SQLiteDatabase database = this.getWritableDatabase();
         SQLiteStatement statement = database.compileStatement(sql);
@@ -61,14 +63,30 @@ public class Database extends SQLiteOpenHelper {
         db.close();
     }
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        // Drop old tables if they exist
+        db.execSQL("DROP TABLE IF EXISTS sanpham");
+        db.execSQL("DROP TABLE IF EXISTS nhomsanpham");
 
+        // Recreate tables
+        onCreate(db);
     }
     @Override
     public void onCreate(SQLiteDatabase db) {
+        // Create nhomsanpham table
         db.execSQL("CREATE TABLE IF NOT EXISTS nhomsanpham ("
                 + "maso INTEGER PRIMARY KEY AUTOINCREMENT, "
                 + "tennsp NVARCHAR(200), "
                 + "anh BLOB)");
+
+        // Create sanpham table
+        db.execSQL("CREATE TABLE IF NOT EXISTS sanpham (" +
+                "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                "name NVARCHAR(200) NOT NULL, " +
+                "price REAL NOT NULL, " +
+                "description TEXT, " +
+                "image BLOB, " +
+                "nhomsanpham_id INTEGER, " +
+                "FOREIGN KEY (nhomsanpham_id) REFERENCES nhomsanpham(maso))");
     }
 
     public List<Order> getDonHangByTenKh(String tenKh) {

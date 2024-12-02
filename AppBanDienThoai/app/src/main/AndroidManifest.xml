@@ -4,7 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
-        tools:ignore="ScopedStorage" />
+        android:maxSdkVersion="32" />
 
     <application
         android:allowBackup="true"
@@ -18,79 +18,79 @@
         tools:targetApi="31">
         <activity
             android:name=".TrangChuNguoiDung_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".TrangChuAdmin_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".TrangCaNhanNguoiDung_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".TrangCaNhanAdmin_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".TimKiemSanPham_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ThongTinThanhToan_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ThemTaiKhoan_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ThemSanPham_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ThemNhomSanPham_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".SuaSanPham_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".SuaNhomSanPham_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".SanPhamAdmin_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ChiTietDonHangAdmin_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".NhomSanPhamAdmin_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".GioHang_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".DonHangUser_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".DonHangAdmin_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".DanhMucSanPham_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".DangKiTaiKhoan_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ChiTietSanPham_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ChiTietDonHang_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".TaiKhoan_admin_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".SuaTaiKhoan_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".DoiMatKhau_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Login_Activity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

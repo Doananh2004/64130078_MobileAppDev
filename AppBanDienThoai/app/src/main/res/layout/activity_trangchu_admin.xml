@@ -28,7 +28,8 @@
                 android:id="@+id/logo"
                 android:src="@drawable/logo1"
                 android:layout_width="50dp"
-                android:layout_height="60dp" />
+                android:layout_height="60dp"
+                tools:ignore="ContentDescription" />
 
             <TextView
                 android:focusableInTouchMode="false"
@@ -49,7 +50,7 @@
         <EditText
             android:id="@+id/timkiem"
             android:layout_width="match_parent"
-            android:layout_height="37dp"
+            android:layout_height="0dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
@@ -65,7 +66,7 @@
             android:scrollHorizontally="true"
             android:textColor="#000000"
             android:textColorHint="#aaa"
-            tools:ignore="TouchTargetSizeCheck" />
+            tools:ignore="Autofill,TouchTargetSizeCheck" />
     </LinearLayout>
 
     <!-- Nội dung ứng dụng -->
@@ -83,7 +84,8 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:background="@drawable/img_2"
-                android:layout_height="180dp">
+                android:layout_height="180dp"
+                tools:ignore="ContentDescription">
 
             </ImageView>
             <TextView
@@ -167,7 +169,7 @@
                 android:layout_height="50dp"
                 android:background="#FFFFFF"
                 android:src="@drawable/tc"
-                tools:ignore="SpeakableTextPresentCheck" />
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -216,7 +218,7 @@
                 android:layout_height="50dp"
                 android:background="#FFFFFF"
                 android:src="@drawable/sp"
-                tools:ignore="SpeakableTextPresentCheck" />
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -241,7 +243,7 @@
                 android:layout_height="50dp"
                 android:background="#FFFFFF"
                 android:src="@drawable/donhang"
-                tools:ignore="SpeakableTextPresentCheck" />
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -266,7 +268,7 @@
                 android:layout_height="50dp"
                 android:background="#FFFFFF"
                 android:src="@drawable/taikhoan"
-                tools:ignore="SpeakableTextPresentCheck" />
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -289,7 +291,7 @@
                 android:layout_height="50dp"
                 android:background="#FFFFFF"
                 android:src="@drawable/nd"
-                tools:ignore="SpeakableTextPresentCheck" />
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
             <TextView
                 android:layout_width="wrap_content"

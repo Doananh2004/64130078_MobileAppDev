@@ -37,7 +37,7 @@
                 android:textAllCaps="true"
                 android:fontFamily="sans-serif-condensed-light"
                 android:paddingTop="20dp"
-                android:text="Xin chào quý khách"
+                android:text="Xin chao quy khach"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 android:textStyle="bold" />

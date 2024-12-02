@@ -38,8 +38,9 @@
                 android:text="DANH SÁCH TÀI KHOẢN"
                 android:textColor="#FFFFFF"
                 android:src="@drawable/logo1"
-                android:layout_width="80dp"
-                android:layout_height="80dp" />
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                tools:ignore="HardcodedText" />
         </LinearLayout>
 
     </LinearLayout>
@@ -96,16 +97,16 @@
                 android:layout_height="50dp"
                 android:background="#FFFFFF"
                 android:src="@drawable/tc"
-                tools:ignore="SpeakableTextPresentCheck" />
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="9sp"
+                android:textSize="12sp"
                 android:textColor="#000000"
                 android:text="Trang Chủ"
                 android:gravity="center"
-                tools:ignore="SmallSp" />
+                tools:ignore="HardcodedText" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="0dp"
@@ -121,16 +122,16 @@
                 android:layout_height="50dp"
                 android:background="#FFFFFF"
                 android:src="@drawable/nhomsp"
-                tools:ignore="SpeakableTextPresentCheck" />
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="9sp"
+                android:textSize="12sp"
                 android:textColor="#000000"
                 android:text="Nhóm SP"
                 android:gravity="center"
-                tools:ignore="SmallSp" />
+                tools:ignore="HardcodedText" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="0dp"
@@ -146,16 +147,16 @@
                 android:layout_height="50dp"
                 android:background="#FFFFFF"
                 android:src="@drawable/sp"
-                tools:ignore="SpeakableTextPresentCheck" />
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sản Phẩm"
-                android:textSize="9sp"
+                android:textSize="12sp"
                 android:textColor="#000000"
                 android:gravity="center"
-                tools:ignore="SmallSp" />
+                tools:ignore="HardcodedText" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="0dp"
@@ -171,16 +172,16 @@
                 android:layout_height="50dp"
                 android:background="#FFFFFF"
                 android:src="@drawable/donhang"
-                tools:ignore="SpeakableTextPresentCheck" />
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="9sp"
+                android:textSize="12sp"
                 android:textColor="#000000"
                 android:text="Đơn Hàng"
                 android:gravity="center"
-                tools:ignore="SmallSp" />
+                tools:ignore="HardcodedText" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="0dp"
@@ -196,16 +197,16 @@
                 android:layout_height="50dp"
                 android:background="#FFFFFF"
                 android:src="@drawable/taikhoan"
-                tools:ignore="SpeakableTextPresentCheck" />
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="9sp"
+                android:textSize="12sp"
                 android:textColor="#000000"
                 android:text="Tài Khoản"
                 android:gravity="center"
-                tools:ignore="SmallSp" />
+                tools:ignore="HardcodedText" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="0dp"
@@ -220,16 +221,16 @@
                 android:layout_height="50dp"
                 android:background="#FFFFFF"
                 android:src="@drawable/nd"
-                tools:ignore="SpeakableTextPresentCheck" />
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
                 android:text="Cá Nhân"
-                android:textSize="9sp"
+                android:textSize="12sp"
                 android:gravity="center"
-                tools:ignore="SmallSp" />
+                tools:ignore="HardcodedText" />
         </LinearLayout>
     </LinearLayout>
 

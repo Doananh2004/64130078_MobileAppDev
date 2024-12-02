@@ -45,7 +45,7 @@
                 android:layout_height="50dp"
                 android:id="@+id/tdn"
                 android:background="@drawable/edittext"
-
+                android:inputType="text"
                 android:drawablePadding="8dp"
                 android:hint="Username"
                 android:textColorHint="#aaa"
@@ -95,7 +95,7 @@
                 app:cornerRadius = "20dp"/>
             <Spinner
                 android:id="@+id/quyen"
-                android:layout_marginLeft="1dp"
+                android:layout_marginStart="1dp"
                 android:layout_marginTop="0dp"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
