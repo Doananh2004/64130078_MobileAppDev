@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "image": "giay1.png",
+      "name": "Air Jordan 4",
+      "price": "8,100,000 ₫",
+      "size": [38, 39, 40, 41, 42],
+      "description": "Giày Nike Air Jordan 4 Retro ‘Bred Reimagined’ FV5029-006."
+    },
+    {
+      "image": "giay2.png",
+      "name": "Giày Nike Dunk",
+      "price": "3,300,000 ₫",
+      "size": [37, 38, 39, 40, 41],
+      "description": "Giày Nike Dunk Low ‘Black White’ DD1391-100."
+    },
+    {
+      "image": "giay3.png",
+      "name": "Air Force 1 Low",
+      "price": "2,800,000 ₫",
+      "size": [40, 41, 42, 43, 44],
+      "description": "Giày Nike Air Force 1 07 Triple White CW2288-111."
+    },
+    {
+      "image": "giay4.png",
+      "name": "Nike Kobe",
+      "price": "12,900,000 ₫",
+      "size": [39, 40, 41, 42, 43],
+      "description": "Giày Nike Kobe 6 Protro ‘Reverse Grinch’ FV4921-600."
+    },
+    {
+      "image": "giay5.png",
+      "name": "Air Jordan 1 Low",
+      "price": "31,000,000 ₫",
+      "size": [36, 37, 38, 39, 40],
+      "description": "Giày Nike Air Jordan 1 Retro Low Golf ‘Travis Scott’ FZ3124-200."
+    },
+    {
+      "image": "giay6.png",
+      "name": "Nike GT Cut",
+      "price": "4,500,000 ₫",
+      "size": [38, 39, 40, 41, 42],
+      "description": "Giày Nike Zoom GT Cut 2 EP ‘Hyper Pink’ DJ6013-604."
+    },
+    {
+      "image": "giay7.png",
+      "name": "Nike Kyrie 8",
+      "price": "3,500,000 ₫",
+      "size": [39, 40, 41, 42, 43],
+      "description": "Giày Nike Kyrie 8 Infinity EP ‘Aluminum’ DC9134-400."
+    },
+    {
+      "image": "giay8.png",
+      "name": "Air Force 1 Low",
+      "price": "7,900,000 ₫",
+      "size": [37, 38, 39, 40, 41],
+      "description": "Giày Nike Supreme x Air Force 1 Low SP ‘Wheat’ DN1555-200."
+    },
+    {
+      "image": "giay9.png",
+      "name": "Air Jordan 38",
+      "price": "3,900,000 ₫",
+      "size": [40, 41, 42, 43, 44],
+      "description": "Giày Nike Air Jordan 38 Low PF ‘Siren Red’ FD2325-101."
+    },
+    {
+      "image": "giay10.png",
+      "name": "Air Jordan 1 Low",
+      "price": "4,100,000 ₫",
+      "size": [36, 37, 38, 39, 40],
+      "description": "Giày Nike Wmns Air Jordan 1 Low ‘White Wolf Grey’ DC0774-105."
+    }
+  ]
+}
