@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16pt"
+    android:gravity="center"
+    android:background="#ecf0f1"
+    tools:context=".DangNhap">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Đăng Nhập"
+        android:textSize="14pt"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20pt"/>
+
+    <EditText
+        android:id="@+id/edtTK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tài khoản"
+        android:drawableEnd="@drawable/user"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/edtMK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mật Khẩu"
+        android:inputType="textPassword"
+        android:drawableEnd="@drawable/pass"
+        android:layout_marginBottom="20pt"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/btnDangNhap"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:text="Đăng Nhập" />
+
+    <TextView
+        android:id="@+id/tvDangKy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Bạn chưa có tài khoản? Hãy đăng kí"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</LinearLayout>

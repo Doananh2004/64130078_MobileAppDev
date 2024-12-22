@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16pt"
+    android:background="#ecf0f1"
+    android:gravity="center"
+    tools:context=".DangKy">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Đăng Ký"
+        android:textSize="14pt"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20pt"/>
+
+    <EditText
+        android:id="@+id/edtTK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tài khoản"
+        android:inputType="textPersonName"
+        android:drawableEnd="@drawable/user"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etdMK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:drawableEnd="@drawable/pass"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etdNhapLaiMK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập lại mật khẩu"
+        android:inputType="textPassword"
+        android:drawableEnd="@drawable/pass"
+        android:layout_marginBottom="20pt"/>
+
+    <Button
+        android:id="@+id/btnDangKy"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:text="Đăng Ký" />
+
+    <TextView
+        android:id="@+id/tvDangNhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Bạn đã có tài khoản? Hãy đăng nhập"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</LinearLayout>
