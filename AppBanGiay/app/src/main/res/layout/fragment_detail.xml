@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".DetailFragment">
+
+    <!-- Ảnh sản phẩm -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Product Image"/>
+
+    <!-- Tên sản phẩm -->
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="16dp" />
+
+    <!-- Giá sản phẩm -->
+    <TextView
+        android:id="@+id/priceTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/nameTextView"
+        android:layout_marginTop="8dp" />
+
+    <!-- Mô tả sản phẩm -->
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/priceTextView"
+        android:layout_marginTop="16dp" />
+
+    <!-- Chữ "Kích thước" -->
+    <TextView
+        android:id="@+id/sizeLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Kích thước"
+        android:layout_below="@id/descriptionTextView"
+        android:layout_marginTop="16dp" />
+
+    <!-- Kích thước sản phẩm -->
+    <LinearLayout
+        android:id="@+id/sizeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/sizeLabelTextView"
+        android:gravity="left"
+        android:layout_marginTop="8dp">
+
+        <!-- Button kích thước 1 -->
+        <Button
+            android:id="@+id/sizeButton1"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:background="@drawable/default_button_background"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <!-- Button kích thước 2 -->
+        <Button
+            android:id="@+id/sizeButton2"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/default_button_background"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <!-- Button kích thước 3 -->
+        <Button
+            android:id="@+id/sizeButton3"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/default_button_background"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <!-- Button kích thước 4 -->
+        <Button
+            android:id="@+id/sizeButton4"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/default_button_background"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
+
+        <!-- Button kích thước 5 -->
+        <Button
+            android:id="@+id/sizeButton5"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/default_button_background"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+    <!-- Button "Thêm vào giỏ hàng" -->
+    <Button
+        android:id="@+id/addToCartButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm vào giỏ hàng"
+        android:background="@color/black"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_below="@id/sizeLayout"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>
