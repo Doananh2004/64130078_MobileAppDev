@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">AppBanGiay</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chogiaohang_fragment">chờ giao hàng fragment</string>
+    <string name="choxacnhan_fragment">chờ xác nhận fragment</string>
+    <string name="dagiao_fragment">đã giao fragment</string>
 </resources>
