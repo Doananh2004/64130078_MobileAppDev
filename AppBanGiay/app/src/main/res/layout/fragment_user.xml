@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecf0f1"
+    tools:context=".UserFragment">
+
+    <!-- Avatar và Tên người dùng -->
+    <LinearLayout
+        android:id="@+id/avatarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/avatarImageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/usernameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp" />
+    </LinearLayout>
+
+    <!-- Mục Đơn mua -->
+    <LinearLayout
+        android:id="@+id/donMuaLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_below="@id/avatarLayout">
+
+        <ImageView
+            android:id="@+id/donMuaIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/list"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/donMuaTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:text="Đơn mua"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/arrowIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/right"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+    <!-- Mục Đổi mật khẩu -->
+    <LinearLayout
+        android:id="@+id/doiMatKhauLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_below="@id/donMuaLayout">
+
+        <ImageView
+            android:id="@+id/doiMatKhauIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/changepass"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/doiMatKhauTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:text="Đổi mật khẩu"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/arrowIconDoiMatKhau"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/right"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+    <!-- Mục Đăng xuất -->
+    <LinearLayout
+        android:id="@+id/dangXuatLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_below="@id/doiMatKhauLayout">
+
+        <ImageView
+            android:id="@+id/dangXuatIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/logout"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/dangXuatTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:text="Đăng xuất"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/arrowIconDangXuat"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/right"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+</RelativeLayout>
